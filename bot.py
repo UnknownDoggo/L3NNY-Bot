@@ -13,7 +13,7 @@ import inspect
 from contextlib import redirect_stdout
 from discord.ext import commands
 import json
-bot = commands.Bot(command_prefix=commands.when_mentioned_or('+'), description="A selfbot made by L3NNY#0849\n\nHelp Commands", owner_id=411683912729755649)
+bot = commands.Bot(command_prefix=commands.when_mentioned_or('dog_'), description="A selfbot made by CryptoDog\n\nHelp Commands", owner_id=401875049050538005)
 
 
 @bot.command()
@@ -48,7 +48,7 @@ async def info(ctx):
     """Get infomation about the selfbot"""
     color = discord.Color(value=0x00ff00)
     em = discord.Embed(color=color, title='Infomation:')
-    em.description = f"**Creator:** L3NNY#0849\n**Ping:**{bot.latency * 1000:.4f}\n**Servers you are in:** {len(bot.guilds)}"
+    em.description = f"**Creator:** CryptoDog\n**Ping:**{bot.latency * 1000:.4f}\n**Servers you are in:** {len(bot.guilds)}"
     await ctx.send(embed=em)
                         
 
