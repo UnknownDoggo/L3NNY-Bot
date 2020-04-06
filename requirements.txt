@@ -1,1 +1,8 @@
 git+https://github.com/Rapptz/discord.py@master
+lxml
+mtranslate
+colorthief
+sympy
+psutil
+emoji
+wikipedia
